@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#4d5061;
+	font-family: sans-serif;
+	text-align: justify;
+	margin: 0;
+	padding: 0;
+}
+header{
+	text-align: center;
+	margin:0% ;
+	font: normal 2.3em serif;
+}
+header > h1{
+	font-family: 'Faster One', cursive;
+	
+	background-color:#129490;
+}
+header > p{
+	background-color: #e0e2db;
+	margin: 0% 7% ;
+	border-radius: 11px;
+	box-shadow: 7px 7px #129490;
+}
+nav > ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	background-color:#0D7A76;
+	justify-content: center;
+	margin: 0% 0% 1% 0%;
+	border-top:2px solid black ;
+	border-bottom:3px solid black ;
+}
+nav > li{
+	margin: 0;
+}
+li > a{
+	display: block;
+	padding: 15px 20px;
+	color:#FFFCF9 ;
+	text-decoration: none;
+	border:2px solid black;
+	cursor:pointer ;
+	transition: background-color 0.3s ease-in-out;
+}
+li > a:hover{
+	background-color:#4D5051 ;
+	color: #e0e2db;
+}
+section{
+	background-color: #e0e2db;
+	border-radius:11px;
+	font-size: 1.8em;
+	margin: 5% 20%;
+	border: 5px solid black;
+	padding: 0px 30px 0px 30px;
+	box-shadow: 7px 7px #129490;
+
+}
+section > img{
+	height: 500px;
+	width: 666px;
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 0% 20%;
+	margin-top: 10px;
+	box-shadow: black;
+	box-shadow: 4px 4px #129490;
+
+}
+section > p{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-family:arial,times,sans-serif;
+}
+section > h1{
+	text-align: center;
+	border-bottom: 2px solid #4D5061;
+	font-family: 'Faster One', cursive;
+}
+section > h2{
+	text-align: center;
+	border-bottom: 2px solid #4D5061;
+}
+section > button{
+	height:70px ;
+	width: 220px;
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 0% 40% 2% 40%;
+	margin-top: 10px;
+	box-shadow: black;
+	box-shadow: 4px 4px #129490;
+	font-family: 'Faster One', cursive;
+	font-size: 0.9em;
+	cursor:pointer ;
+	transition: background-color 0.3s ease-in-out;
+}
+section > button:hover{
+	background-color:#92F2EE;
+}
+footer{
+	background-color:#E0E2DB;
+	text-align: center;
+	padding-bottom:50px;
+	padding-top: 10px;
+	font-family:'Faster One', cursive ;
+	border-top: 5px solid #129490 ;
+	background-color: #FFFCF9;
+}
